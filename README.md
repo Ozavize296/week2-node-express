@@ -12,7 +12,7 @@ The server runs on the port in `.env` (default `3000`).
 ## Endpoints
 
 - `GET /` returns `My Week 2 API!`.
-- `POST /user` accepts `{ "name": "Ada", "email": "ada@example.com" }` and returns `Hello, Ada!`.
+- `POST /user` accepts `{ "name": "GIFT", "email": "ozavizefavouri@gmail.com" }` and returns `Hello, GIFT!`.
 - `GET /user/:id` returns `User [id] profile`.
 - Missing `name` or `email` in `POST /user` returns `400`.
 
