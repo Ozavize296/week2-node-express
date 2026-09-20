@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-	res.sendFile(path.join(__dirname, 'public', 'index.html'));
+	res.send('My Week 2 API!');
 });
 
 app.post('/user', (req, res, next) => {
